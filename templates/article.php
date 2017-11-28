@@ -4,11 +4,13 @@
     
     <?php
         var_dump($_GET);
+        // retrieve the id parameter from the url
+        $id = $_GET['id'];
         
         
     ?>
     
-    
+
     
     
 </div>
