@@ -1,0 +1,58 @@
+/*!
+ * Start Bootstrap - Busines Frontpage (https://startbootstrap.com/template-overviews/business-frontpage)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-business-frontpage/blob/master/LICENSE)
+ */
+/* mwilliams:  Sticky footer styles */
+
+html{
+    position:relative;
+    min-height: 100%
+}
+
+footer{
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height:100px;
+}
+/*  end sticky footer styles*/
+
+body {
+  padding-top: 54px;
+  margin-bottom:100px;
+}
+
+
+
+.business-header {
+  height: 50vh;
+  min-height: 300px;
+  background: url('http://placehold.it/1920x400') center center no-repeat scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+.card {
+  height: 100%;
+}
+/*
+.bg-dark {
+    background-color: red!important;
+}*/
+
+/*.breadcrumb{background-color: #9fcdff};
+
+.btn-success {
+    color: #fff;
+    background-color: #bd2130!important;
+    border-color: #28a745;
+}*/
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
