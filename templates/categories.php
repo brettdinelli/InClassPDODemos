@@ -4,7 +4,7 @@
         
         <!-- mwilliams:  breadcrumb navigation -->
         <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+            <li class="breadcrumb-item"><a href="index.php">Home</a></li>
             <li class="breadcrumb-item active">Categories</li>            
         </ol>
         <!-- end breadcrumb -->
@@ -41,7 +41,7 @@
             // loop the array and display it in a ul list
             foreach($category_list as $row) {
                 echo "<li class='list-group-item'>
-                        <a href='articlesbycategory.php?id={$row['id']}'>{$row['category']}</a> 
+                        <a href='articlesbycategory.php?id={$row['id']}&name={$row['category']}'>{$row['category']}</a> 
                       </li>";
             }
             
