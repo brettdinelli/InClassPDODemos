@@ -35,11 +35,14 @@
             
             // var_dump($category_list);
             // start the list
-            echo "<ul>";
+            echo "<ul class='list-group'>";
+            echo '<li class="list-group-item active">Select a Category</li>';
             
             // loop the array and display it in a ul list
             foreach($category_list as $row) {
-                echo "<li>" . $row['id'] . " - " . $row['category'] . "</li>";
+                echo "<li class='list-group-item'>
+                        <a href='articlesbycategory.php?id={$row['id']}'>{$row['category']}</a> 
+                      </li>";
             }
             
             // end the list
